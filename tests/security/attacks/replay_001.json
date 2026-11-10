@@ -1,0 +1,21 @@
+{
+  "test_id": "replay_001",
+  "attack_name": "Cryptographic Replay Attack",
+  "user_goal": "Buy SSD",
+  "payment_request": {
+    "amount": 129.0,
+    "currency": "USD",
+    "category": "electronics",
+    "quantity": 1,
+    "purpose": "Samsung 980 SSD",
+    "merchant_id": "merch_bestbuy_01",
+    "merchant_name": "Best Buy Official",
+    "merchant_country": "US",
+    "is_recurring": false,
+    "simulate_replay": true
+  },
+  "execution_steps": [],
+  "expected_decision": "BLOCK",
+  "expected_risk": "CRITICAL"
+}
+
